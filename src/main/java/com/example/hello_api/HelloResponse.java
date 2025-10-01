@@ -20,8 +20,8 @@ public class HelloResponse {
     }
 
     // 3. Getter 메서드
-    // private 필드의 값을 외부에서 읽을 수 있도록 public 메서드를 제공합니다.
-    // Spring(내부적으로 Jackson 라이브러리)이 이 메서드들을 호출하여 JSON을 만듭니다.
+    // private 필드의 값을 외부에서 읽을 수 있도록 public 메서드를 제공
+    // Spring(내부적으로 Jackson 라이브러리)이 이 메서드들을 호출하여 JSON을 만든다.
     public ZonedDateTime getKoreaTime() {
         return koreaTime;
     }
