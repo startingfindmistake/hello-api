@@ -24,3 +24,6 @@ $ ./gradlew clean bootJar
 $ java -jar build/lib/hello-api-<VERSION>.jar
 ```
 
+## Dockerizing
+- https://spring.io/guides/gs/spring-boot-docker
+- openJDK 17
