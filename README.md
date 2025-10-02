@@ -24,3 +24,10 @@ $ ./gradlew clean bootJar
 $ java -jar build/lib/hello-api-<VERSION>.jar
 ```
 
+## Remote Run
+```bash
+# scp -i <KEY.pem> start.sh ubuntu@<SERVER_IP>:~/app/hello-api/
+
+$  ssh -i <KEY.pem>  ubuntu@<SERVER_IP> "cd /home/ubuntu/app/hello-api;pwd;./start.sh"
+/home/ubuntu/app/hello-api
+```
