@@ -46,4 +46,5 @@ $ docker buildx build --platform linux/amd64 \
 $ sudo docker images | grep hello-api
 startingfindmistake/hello-api     0.3.0          f086886d9388   2 minutes ago   92.4MB
 $ sudo docker push startingfindmistake/hello-api:0.3.0
+
 ```
